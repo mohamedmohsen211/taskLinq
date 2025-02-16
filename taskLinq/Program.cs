@@ -355,10 +355,17 @@ public class Program
         //    Console.WriteLine($"Words that start with '{item.Key}': {string.Join(",", item.Take(10))}");
         //}
         //3
+        //string[] Arr11 = { "from", "salt", "earn", "last", "near", "form" };
 
+        //var groupedWords = Arr11.GroupBy(p => String.Concat(p.OrderBy(p => p)), StringComparer.OrdinalIgnoreCase);
 
-
-
+        //foreach (var item in groupedWords)
+        //{
+        //    foreach (var w in item)
+        //    {
+        //        Console.WriteLine(w);
+        //    }
+        //}
     }
 }    
 
